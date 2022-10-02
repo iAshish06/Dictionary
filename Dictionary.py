@@ -1,7 +1,7 @@
 import json
 import difflib  #python library to compare text
 from difflib import SequenceMatcher as sm   #For comparing text in case of user enter wrong text
-from difflib import get_close_matches as gcm 
+from difflib import get_close_matches as gcm  #As name suggest
 
 data_file=open('data.json')
 data1 = json.load(data_file)    #Loading Json file and it can be written as data=json.load(open(filepath.json)) as well
